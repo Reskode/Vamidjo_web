@@ -61,6 +61,17 @@ function FixedPlugin(props) {
                   props.handleBgClick("white");
                 }}
               />
+              <span
+                className={
+                  props.bgColor === "#8022D9"
+                    ? "badge filter badge-light active"
+                    : "badge filter badge-light"
+                }
+                data-color="#8022D9"
+                onClick={() => {
+                  props.handleBgClick("white");
+                }}
+              />
             </div>
           </li>
           <li className="header-title">SIDEBAR ACTIVE COLOR</li>
@@ -123,39 +134,8 @@ function FixedPlugin(props) {
               />
             </div>
           </li>
-          <li className="button-container">
-            <Button
-              href="https://www.creative-tim.com/product/paper-dashboard-react?ref=pdr-fixed-plugin"
-              color="primary"
-              block
-              className="btn-round"
-            >
-              Download now
-            </Button>
-          </li>
-          <li className="button-container">
-            <Button
-              href="https://www.creative-tim.com/product/paper-dashboard-react/#/documentation/tutorial?ref=pdr-fixed-plugin"
-              color="default"
-              block
-              className="btn-round"
-              outline
-            >
-              <i className="nc-icon nc-paper" /> Documentation
-            </Button>
-          </li>
-          <li className="header-title">Want more components?</li>
-          <li className="button-container">
-            <Button
-              href="https://www.creative-tim.com/product/paper-dashboard-pro-react?ref=pdr-fixed-plugin"
-              color="danger"
-              block
-              className="btn-round"
-              target="_blank"
-            >
-              Get pro version
-            </Button>
-          </li>
+
+         
         </ul>
       </div>
     </div>

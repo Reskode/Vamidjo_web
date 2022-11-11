@@ -16,37 +16,38 @@
 * The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
 
 */
-import Dashboard from "views/Dashboard.js";
+import Accueil from "views/Accueil.js";
 import Notifications from "views/Notifications.js";
-import Icons from "views/Icons.js";
-import Typography from "views/Typography.js";
-import TableList from "views/Tables.js";
-import Maps from "views/Map.js";
+import Demandes from "views/Demandes.js";
+import Utilisateurs from "./views/Utilisateurs";
 import UserPage from "views/User.js";
 import UpgradeToPro from "views/Upgrade.js";
 
 var routes = [
+
+ 
   {
-    path: "/dashboard",
-    name: "Dashboard",
+    path: "/accueil",
+    name: "Accueil",
     icon: "nc-icon nc-bank",
-    component: Dashboard,
+    component: Accueil,
     layout: "/admin"
   },
   {
-    path: "/icons",
-    name: "Icons",
-    icon: "nc-icon nc-diamond",
-    component: Icons,
+    path: "/users",
+    name: "Utilisateurs",
+    icon: "nc-icon nc-tile-56",
+    component: Utilisateurs,
     layout: "/admin"
   },
   {
-    path: "/maps",
-    name: "Maps",
-    icon: "nc-icon nc-pin-3",
-    component: Maps,
+    path: "/demande_completion",
+    name: "Demandes",
+    icon: "nc-icon nc-tile-56",
+    component: Demandes,
     layout: "/admin"
   },
+ 
   {
     path: "/notifications",
     name: "Notifications",
@@ -61,20 +62,8 @@ var routes = [
     component: UserPage,
     layout: "/admin"
   },
-  {
-    path: "/tables",
-    name: "Table List",
-    icon: "nc-icon nc-tile-56",
-    component: TableList,
-    layout: "/admin"
-  },
-  {
-    path: "/typography",
-    name: "Typography",
-    icon: "nc-icon nc-caps-small",
-    component: Typography,
-    layout: "/admin"
-  },
+ 
+
   {
     pro: true,
     path: "/upgrade",

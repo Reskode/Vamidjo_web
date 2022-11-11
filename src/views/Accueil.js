@@ -36,7 +36,7 @@ import {
   dashboardNASDAQChart
 } from "variables/charts.js";
 
-function Dashboard() {
+function Accueil() {
   return (
     <>
       <div className="content">
@@ -52,7 +52,7 @@ function Dashboard() {
                   </Col>
                   <Col md="8" xs="7">
                     <div className="numbers">
-                      <p className="card-category">Capacity</p>
+                      <p className="card-category">Demandes</p>
                       <CardTitle tag="p">150GB</CardTitle>
                       <p />
                     </div>
@@ -78,7 +78,7 @@ function Dashboard() {
                   </Col>
                   <Col md="8" xs="7">
                     <div className="numbers">
-                      <p className="card-category">Revenue</p>
+                      <p className="card-category">Utilisateurs</p>
                       <CardTitle tag="p">$ 1,345</CardTitle>
                       <p />
                     </div>
@@ -104,7 +104,7 @@ function Dashboard() {
                   </Col>
                   <Col md="8" xs="7">
                     <div className="numbers">
-                      <p className="card-category">Errors</p>
+                      <p className="card-category">Réclamation</p>
                       <CardTitle tag="p">23</CardTitle>
                       <p />
                     </div>
@@ -229,4 +229,4 @@ function Dashboard() {
   );
 }
 
-export default Dashboard;
+export default Accueil;
