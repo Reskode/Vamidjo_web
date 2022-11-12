@@ -1,21 +1,3 @@
-/*!
-
-=========================================================
-* Paper Dashboard React - v1.3.1
-=========================================================
-
-* Product Page: https://www.creative-tim.com/product/paper-dashboard-react
-* Copyright 2022 Creative Tim (https://www.creative-tim.com)
-
-* Licensed under MIT (https://github.com/creativetimofficial/paper-dashboard-react/blob/main/LICENSE.md)
-
-* Coded by Creative Tim
-
-=========================================================
-
-* The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
-
-*/
 import React from "react";
 // react plugin used to create charts
 import { Line, Pie } from "react-chartjs-2";
@@ -53,7 +35,7 @@ function Accueil() {
                   <Col md="8" xs="7">
                     <div className="numbers">
                       <p className="card-category">Demandes</p>
-                      <CardTitle tag="p">150GB</CardTitle>
+                      <CardTitle tag="p">150</CardTitle>
                       <p />
                     </div>
                   </Col>
@@ -62,7 +44,7 @@ function Accueil() {
               <CardFooter>
                 <hr />
                 <div className="stats">
-                  <i className="fas fa-sync-alt" /> Update Now
+                  <i className="fas fa-sync-alt" />Voir le rapport détaillé
                 </div>
               </CardFooter>
             </Card>
@@ -79,7 +61,7 @@ function Accueil() {
                   <Col md="8" xs="7">
                     <div className="numbers">
                       <p className="card-category">Utilisateurs</p>
-                      <CardTitle tag="p">$ 1,345</CardTitle>
+                      <CardTitle tag="p">8</CardTitle>
                       <p />
                     </div>
                   </Col>
@@ -88,7 +70,7 @@ function Accueil() {
               <CardFooter>
                 <hr />
                 <div className="stats">
-                  <i className="far fa-calendar" /> Last day
+                  <i className="far fa-calendar" />  Voir le rapport détaillé
                 </div>
               </CardFooter>
             </Card>
@@ -114,7 +96,7 @@ function Accueil() {
               <CardFooter>
                 <hr />
                 <div className="stats">
-                  <i className="far fa-clock" /> In the last hour
+                  <i className="far fa-clock" /> Voir le rapport détaillé
                 </div>
               </CardFooter>
             </Card>
@@ -140,7 +122,7 @@ function Accueil() {
               <CardFooter>
                 <hr />
                 <div className="stats">
-                  <i className="fas fa-sync-alt" /> Update now
+                  <i className="fas fa-sync-alt" /> Voir le rapport détaillé
                 </div>
               </CardFooter>
             </Card>

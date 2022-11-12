@@ -1,21 +1,3 @@
-/*!
-
-=========================================================
-* Paper Dashboard React - v1.3.1
-=========================================================
-
-* Product Page: https://www.creative-tim.com/product/paper-dashboard-react
-* Copyright 2022 Creative Tim (https://www.creative-tim.com)
-
-* Licensed under MIT (https://github.com/creativetimofficial/paper-dashboard-react/blob/main/LICENSE.md)
-
-* Coded by Creative Tim
-
-=========================================================
-
-* The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
-
-*/
 import React from "react";
 
 // reactstrap components
@@ -39,7 +21,7 @@ function Demandes() {
     <>
       <div className="content">
         <Row>
-          <Col md="12">
+          <Col md="7">
             <Card>
               <CardHeader>
                 <CardTitle tag="h4">Demande de completion de compte</CardTitle>
@@ -49,19 +31,19 @@ function Demandes() {
                   <thead className="text-primary">
                     <tr>
                       <th> <input type="checkbox" id="" name=""/></th>
-                      <th>N</th>
+                     
                       <th>Nom prénom </th>
-                      <th>Profession</th>
+                      <th>Prof</th>
                       <th>Email</th>
                       <th>Carte</th>
                       <th>Status</th>
-                      <th className="text-right">Actions</th>
+                      <th >Actions</th>
                     </tr>
                   </thead>
                   <tbody>
                     <tr>
                       <td><input type="checkbox" id="" name=""/></td>
-                      <td>1</td>
+                 
                       <td>Bill Gates</td>
                       <td>Etudiant</td>
                       <td>moises@gmail.com</td>
@@ -80,7 +62,17 @@ function Demandes() {
                     </tr>
                     <tr>
                       <td><input type="checkbox" id="" name=""/></td>
-                      <td>1</td>
+                     
+                      <td>Bill Gates</td>
+                      <td>Etudiant</td>
+                      <td>moises@gmail.com</td>
+                      <td>CNI</td>
+                      <td>NV</td>
+                      <td ></td>
+                    </tr>
+                    <tr>
+                      <td><input type="checkbox" id="" name=""/></td>
+                   
                       <td>Bill Gates</td>
                       <td>Etudiant</td>
                       <td>moises@gmail.com</td>
@@ -90,17 +82,7 @@ function Demandes() {
                     </tr>
                     <tr>
                       <td><input type="checkbox" id="" name=""/></td>
-                      <td>1</td>
-                      <td>Bill Gates</td>
-                      <td>Etudiant</td>
-                      <td>moises@gmail.com</td>
-                      <td>CNI</td>
-                      <td>NV</td>
-                      <td className="text-right"></td>
-                    </tr>
-                    <tr>
-                      <td><input type="checkbox" id="" name=""/></td>
-                      <td>1</td>
+                     
                       <td>Bill Gates</td>
                       <td>Etudiant</td>
                       <td>moises@gmail.com</td>
@@ -116,8 +98,9 @@ function Demandes() {
                 </Table>
               </CardBody>
             </Card>
+
           </Col>
-          <Col md="6">
+          <Col md="5">
             <Card className="card-user">
               <div className="image">
                 <img alt="..." src={require("assets/img/logo.png")} />
@@ -210,26 +193,7 @@ function Demandes() {
                  
                 
                   
-                  </ul>
-              </CardBody>
-              <CardFooter>
-                
-                <div className="button-container">
-                  <Row>
-                    
-                  </Row>
-                </div>
-              </CardFooter>
-            </Card>
-
-          </Col>
-          <Col md="6">
-            <Card className="card-user">
-             
-              <CardBody>
-               
-                <ul className="list-unstyled team-members">
-                
+                 
                  
                 
                 <li><br />
