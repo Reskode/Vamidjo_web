@@ -44,8 +44,7 @@ var routes = [
     component: UserPage,
     layout: "/admin"
   },
- 
-
+  
   {
     pro: true,
     path: "/upgrade",
