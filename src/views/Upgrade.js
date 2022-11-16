@@ -1,5 +1,4 @@
 import React from "react";
-
 // reactstrap components
 import {
   Button,
@@ -113,8 +112,7 @@ function Upgrade() {
                           color="primary"
                           href="https://www.creative-tim.com/product/paper-dashboard-2-pro?ref=pd-free-upgrade-live"
                           rel="noopener noreferrer"
-                          target="_blank"
-                        >
+                          target="_blank"  >
                           Upgrade to PRO
                         </Button>
                       </td>

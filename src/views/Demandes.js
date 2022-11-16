@@ -1,8 +1,6 @@
 import React from "react";
-
 // reactstrap components
 import {
-
   Card,
   CardHeader,
   CardBody,
@@ -89,11 +87,8 @@ function Demandes() {
                       <td>CNI</td>
                       <td>NV</td>
                       <td className="text-right"></td>
-                    </tr>
-                   
-                   
-                   
-                   
+                    </tr>                  
+                                      
                   </tbody>
                 </Table>
               </CardBody>
@@ -187,14 +182,6 @@ function Demandes() {
                       </Col>
                     </Row>
                   </li>
-                 
-                  
-                  
-                 
-                
-                  
-                 
-                 
                 
                 <li><br />
                     <Row>
